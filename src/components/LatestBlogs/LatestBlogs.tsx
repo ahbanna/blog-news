@@ -7,9 +7,7 @@ const LatestBlogs = ({ blogs }: { blogs: Blog[] }) => {
     <div className="w-[90%] mx-auto">
       <h2 className="text-center text-4xl my-3">Latest Blogs</h2>
       <p className="text-center w-2/4 m-auto">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-        ducimus corporis illum laborum error minima veritatis excepturi quod
-        magni.
+        Discover What’s New in the World of Ideas and Innovation
       </p>
       <div className="grid grid-cols-3 gap-4 my-5">
         {blogs.slice(0, 3).map((blog) => (
